@@ -1,0 +1,52 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+EPCI	431projectUtils.cpp	/^double EPCI(std::string configuration) {$/;"	f
+GLOB_baseline	431project.h	/^const std::string GLOB_baseline = "0 0 0 5 0 5 0 2 2 2 0 1 0 1 2 2 2 5";$/;"	v
+GLOB_baseline_EP_pair	431project.cpp	/^std::pair<double, double> GLOB_baseline_EP_pair;$/;"	v
+GLOB_baseline_EP_pair	test.cpp	/^std::pair<double, double> GLOB_baseline_EP_pair;$/;"	v
+GLOB_derived_values	431project.cpp	/^std::map<std::string, std::pair<double, double> > GLOB_derived_values;$/;"	v
+GLOB_derived_values	test.cpp	/^std::map<std::string, std::pair<double, double> > GLOB_derived_values;$/;"	v
+GLOB_dimensioncardinality	431project.h	/^const unsigned int GLOB_dimensioncardinality[NUM_DIMS] = { 4, 2, 4, 9, 3, 9, 3,$/;"	v
+GLOB_dimensionnames	431project.h	/^const std::string GLOB_dimensionnames[NUM_DIMS] = { "width", "scheduling",$/;"	v
+GLOB_extracted_values	431project.cpp	/^std::map<std::string, std::map<std::string, double>*> GLOB_extracted_values;$/;"	v
+GLOB_extracted_values	test.cpp	/^std::map<std::string, std::map<std::string, double>*> GLOB_extracted_values;$/;"	v
+GLOB_fields	431project.h	/^const std::string GLOB_fields[7] = { "sim_num_insn ", "sim_cycle ",$/;"	v
+GLOB_outputpath	431project.h	/^const std::string GLOB_outputpath = "rawProjectOutputData\/";$/;"	v
+GLOB_prefixes	431project.h	/^const std::string GLOB_prefixes[5] = { "0.", "1.", "2.", "3.", "4." };$/;"	v
+GLOB_script	431project.h	/^const std::string GLOB_script = ".\/runprojectsuite.sh ";$/;"	v
+GLOB_seen_configurations	431project.cpp	/^std::map<std::string, unsigned int> GLOB_seen_configurations;$/;"	v
+NUM_DIMS	431project.h	/^const int NUM_DIMS = 18;$/;"	v
+NUM_DIMS_DEPENDENT	431project.h	/^const int NUM_DIMS_DEPENDENT = 3;$/;"	v
+PSU_ID_SUM	YOURCODEHERE.cpp	26;"	d	file:
+PipelineLeakage	431projectUtils.cpp	/^double PipelineLeakage(std::string configuration) {$/;"	f
+cacheleak	431projectUtils.cpp	/^double cacheleak(std::string configuration) {$/;"	f
+calculateEDP	431projectUtils.cpp	/^double calculateEDP(std::string configuration, std::string benchmarkprefix) {$/;"	f
+calculateExecutionTime	431projectUtils.cpp	/^double calculateExecutionTime(std::string configuration,$/;"	f
+calculategeomeanEDP	431projectUtils.cpp	/^double calculategeomeanEDP(std::string configuration) {$/;"	f
+calculategeomeanExecutionTime	431projectUtils.cpp	/^double calculategeomeanExecutionTime(std::string configuration) {$/;"	f
+currentlyExploringDim	YOURCODEHERE.cpp	/^unsigned int currentlyExploringDim = 0;$/;"	v
+cycleTime	431projectUtils.cpp	/^double cycleTime(std::string configuration) {$/;"	f
+extractConfigParam	431projectUtils.cpp	/^int extractConfigParam(std::string config, int paramIndex) {$/;"	f
+finishedState	YOURCODEHERE.cpp	/^bool finishedState[15] = { true, true, true, true, true, true, true, true, true, true, true, true, true, true, true };$/;"	v
+firstConfig	YOURCODEHERE.cpp	/^bool firstConfig = true;$/;"	v
+generateCacheLatencyParams	YOURCODEHERE.cpp	/^std::string generateCacheLatencyParams(string halfBackedConfig) {$/;"	f
+generateNextConfigurationProposal	YOURCODEHERE.cpp	/^std::string generateNextConfigurationProposal(std::string currentconfiguration,$/;"	f
+getaccessenergy	431projectUtils.cpp	/^double getaccessenergy(unsigned int size) {$/;"	f
+getcacheleak	431projectUtils.cpp	/^double getcacheleak(unsigned int size) {$/;"	f
+getdl1size	431projectUtils.cpp	/^unsigned int getdl1size(std::string configuration) {$/;"	f
+getil1size	431projectUtils.cpp	/^unsigned int getil1size(std::string configuration) {$/;"	f
+getl2size	431projectUtils.cpp	/^unsigned int getl2size(std::string configuration) {$/;"	f
+isDSEComplete	YOURCODEHERE.cpp	/^bool isDSEComplete = false;$/;"	v
+isNumDimConfiguration	431projectUtils.cpp	/^int isNumDimConfiguration(std::string configuration) {$/;"	f
+main	431project.cpp	/^int main(int argc, char** argv) {$/;"	f
+main	test.cpp	/^int main() {$/;"	f
+orderMap	YOURCODEHERE.cpp	/^int orderMap[15] = { 12,13,14,2,3,4,5,6,7,8,9,10,11,0,1 };		\/\/ BP -> CACHE -> FPU -> CORE$/;"	v
+populate	431projectUtils.cpp	/^void populate(std::string configuration) {$/;"	f
+printUsage	431project.cpp	/^void printUsage() {$/;"	f
+runexperiments	431projectUtils.cpp	/^int runexperiments(std::string configuration, unsigned int iteration) {$/;"	f
+traversalList	YOURCODEHERE.cpp	/^bool traversalList[15] = { false, false, false, false, false, false, false, false, false, false, false, false, false, false, false };$/;"	v
+validateConfiguration	YOURCODEHERE.cpp	/^int validateConfiguration(std::string configuration) {$/;"	f
