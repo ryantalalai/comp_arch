@@ -1,0 +1,18 @@
+# Ryan Talalai FA22
+
+# int A[32];
+# for (int i=0; i<32; ++i)
+# A[i] = i + 42;
+
+addi $1, $1, 128
+L: addi $1, $1, -4
+lw $5, 0($1)
+addi $5, $5, 42
+sw $5, 0($1)
+bne $1, $0, L
+
+
+
+
+# python main.py --num-regs 32 --dm-size 65 --cpu-type singlecycle --mips-code code0_0.txt
+

@@ -1,0 +1,12 @@
+# Ryan Talalai FA22
+
+addi $1, $1, 128 | nop
+L: nop | lw $5, -4($1)
+addi $1, $1, -4 | nop
+addi $5, $5, 42 | nop
+bne $1, $0, L | sw $5, 0($1)
+
+
+
+
+# python main.py --num-regs 32 --dm-size 65 --cpu-type vliw --mips-code code0_2.txt --issue-width 2

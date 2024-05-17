@@ -1,0 +1,22 @@
+# Ryan Talalai FA22
+
+addi $1, $1, 128
+L: addi $1, $1, -16
+lw $5, 140($1)
+lw $7, 136($1)
+lw $9, 132($1)
+lw $11, 128($1)
+lw $6, 144($1)
+add $11, $11, $9
+add $9, $9, $7
+add $7, $7, $5
+add $5, $5, $6
+sw $5, 12($1)
+sw $7, 8($1)
+sw $9, 4($1)
+sw $11, 0($1)
+bne $1, $0, L
+
+
+
+# python main.py --num-regs 32 --dm-size 65 --cpu-type singlecycle --mips-code code1_1.txt
